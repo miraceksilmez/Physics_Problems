@@ -48,4 +48,23 @@ $$T_M \approx 4 \cdot 2.449 \approx 9.80 \, \text{seconds}$$
 ## 4. Part B: Required Length for $T = 1\text{s}$ on Earth
 
 To find the length $L$, we rearrange the period formula:
-$$T^2 = 4\pi^2 \frac{L}{g} \implies L = \frac
+$$T^2 = 4\pi^2 \frac{L}{g} \implies L = \frac{g \cdot T^2}{4\pi^2}$$
+
+### Substituting Values
+Using $g = 9.8 \, \text{m/s}^2$ and $T = 1 \, \text{second}$:
+$$L = \frac{9.8 \cdot (1)^2}{4\pi^2}$$
+$$L = \frac{9.8}{4 \cdot 3.14159^2}$$
+$$L \approx \frac{9.8}{39.478}$$
+$$L \approx 0.248 \, \text{meters}$$
+
+**Result:** To have a period of 1 second on Earth, the pendulum must be approximately **24.8 cm** long.
+
+---
+
+## 5. Summary Table
+
+| Location | Gravity ($g$) | Period ($T$) | Length ($L$) |
+| :--- | :--- | :--- | :--- |
+| **Earth** | $1g$ | 4.0 s | $\approx 3.97$ m |
+| **Moon** | $1/6g$ | **9.80 s** | $\approx 3.97$ m |
+| **Earth (Target)** | $1g$ | **1.0 s** | **0.248 m** |
